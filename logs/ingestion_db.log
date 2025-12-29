@@ -1,0 +1,13 @@
+2025-12-23 13:49:21,871 - INFO - File: begin_inventory.csv | Rows: 206529 | Time Taken: 0.68 minutes
+2025-12-23 13:50:05,712 - INFO - File: end_inventory.csv | Rows: 224489 | Time Taken: 0.73 minutes
+2025-12-23 14:03:49,271 - INFO - File: purchases.csv | Rows: 2372474 | Time Taken: 13.73 minutes
+2025-12-23 14:03:51,495 - INFO - File: purchase_prices.csv | Rows: 12261 | Time Taken: 0.04 minutes
+2025-12-23 15:09:21,881 - INFO - File: sales.csv | Rows: 12825363 | Time Taken: 65.51 minutes
+2025-12-23 15:09:23,494 - INFO - File: vendor_invoice.csv | Rows: 5543 | Time Taken: 0.03 minutes
+2025-12-23 15:09:23,494 - INFO - --------------- Ingestion Complete ------------------
+2025-12-23 15:09:23,494 - INFO - Total Rows Ingested: 15646659
+2025-12-23 15:09:23,494 - INFO - Total Time Taken: 80.71 minutes
+2025-12-23 15:09:56,670 - ERROR - No such comm target registered: jupyter.widget.control
+2025-12-23 15:09:56,673 - WARNING - No such comm: d2f89445-1146-42af-81ff-86d41a9e89fb
+2025-12-23 16:01:51,518 - ERROR - No such comm target registered: jupyter.widget.control
+2025-12-23 16:01:51,522 - WARNING - No such comm: 25fa8390-32d3-49bf-bba6-badd3b014f77
