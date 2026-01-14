@@ -1,128 +1,102 @@
-# 📦 Vendor Performance Analysis
+# **Vendor Performance Analysis**
 
-**SQL • Python (Pandas) • Power BI**
-
-## 📌 Project Overview
-
-This project focuses on analyzing vendor performance using supply chain and procurement data. The goal is to evaluate vendors based on key metrics such as purchase value, freight cost, order volume, and contribution to total procurement. The analysis helps identify high-performing vendors, cost drivers, and optimization opportunities for procurement decision-making.
-
-## 📥 Data Source
-- Kaggle Dataset: https://www.kaggle.com/datasets/harshmadhavan/vendor-performance-analysis
+**SQL • Python (Pandas, Matplotlib, Seaborn) • Power BI**
 
 ---
 
-## 🎯 Objectives
+## **Project Overview**
 
-* Evaluate vendor performance using quantitative supply chain metrics
-* Identify vendors contributing the most to procurement value and cost
-* Analyze freight and purchasing patterns across vendors
-* Build an interactive dashboard for vendor-level insights
+This project analyzes vendor performance using procurement data to help businesses understand vendor contribution, cost drivers, and purchasing patterns. The analysis follows a structured data analytics workflow, from business problem definition to dashboard creation, using SQL, Python, and Power BI.
 
 ---
 
-## 🗂️ Dataset Description
+## **Business Problem**
 
-The dataset consists of procurement and invoice-related tables containing vendor-level transaction data.
-
-### Key Fields:
-
-* **VendorNumber** – Unique vendor identifier
-* **VendorName** – Name of the vendor
-* **PurchaseValue** – Total purchase amount
-* **FreightCost** – Freight charges associated with purchases
-* **OrderQuantity** – Total quantity ordered
-* **InvoiceDate** – Transaction date
+Effective vendor and procurement management is critical for controlling costs and improving operational efficiency. Organizations often face challenges such as vendor dependency, high freight costs, and uneven vendor contribution.
+The objective of this project is to evaluate vendor performance based on purchase value, freight cost, and order volume to support better procurement decision-making.
 
 ---
 
-## 🛠️ Tools & Technologies
+## **Project Flow**
 
-* **SQL** – Data extraction, joins, aggregation, and transformations
-* **Python (Pandas, Matplotlib, Seaborn)** – Data cleaning and exploratory data analysis
-* **Power BI** – Interactive dashboard and KPI visualization
-
----
-
-## 🔍 Data Processing & Analysis
-
-* Cleaned and merged multiple database tables using SQL queries
-* Aggregated vendor-level metrics such as total purchases, freight costs, and order volumes
-* Performed exploratory data analysis (EDA) in Python to understand vendor contribution and cost trends
-* Identified top-performing and high-cost vendors based on key KPIs
+1. Understanding the business problem
+2. Exploring and cleaning data using SQL
+3. Performing exploratory data analysis (EDA) using Python
+4. Building an interactive Power BI dashboard
+5. Reporting insights for decision support
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+## **Data Source**
 
-The EDA focused on understanding vendor behavior and cost distribution.
-
-### Example Insights:
-
-* Distribution of purchase value across vendors
-* Relationship between freight cost and order quantity
-* Identification of vendors with high cost but low contribution
-
-📷 **EDA Visuals:**
-
-* Top 10 Vendors and Brands by Sales
-![Purchase Distribution](images/vendor_brands_by_sales.png)
-* Top 10 Vendors Purchase Contribution
-![Purchase Distribution](images/top10_vendors_purchase_contri.png)
-* Pareto Chart
-![Purchase Distribution](images/pareto_chart.png)
+Kaggle Dataset:
+[https://www.kaggle.com/datasets/harshmadhavan/vendor-performance-analysis](https://www.kaggle.com/datasets/harshmadhavan/vendor-performance-analysis)
 
 ---
 
-## 📈 Power BI Dashboard
+## **SQL Data Analysis & Cleaning**
 
-An interactive Power BI dashboard was developed to track vendor performance and procurement KPIs.
+* Explored procurement and invoice-related tables using SQL
+* Cleaned and merged multiple tables
+* Created aggregated vendor-level datasets
+* Analyzed key metrics such as:
 
-### Dashboard Features:
-
-* Top vendors by purchase value
-* Freight cost contribution analysis
-* Vendor-wise KPI comparison
-* Filters for dynamic vendor exploration
-
-🔗 **Power BI Dashboard Preview:**
-
-![Purchase Distribution](images/vpa_bi.png)
----
-
-## 📂 Project Structure
-
-```
-Vendor-Performance-Analysis/
-│
-├── data/                                
-├── eda_notebooks/           
-├── images/      
-├── logs/        
-├── powerbi_dashboard/
-├── scripts/        
-├── requirements.txt        
-└── README.md                
-```
+  * Purchase value
+  * Freight cost
+  * Order quantity
 
 ---
 
-## 📌 Key Insights
+## **Exploratory Data Analysis (EDA)**
 
-* A small group of vendors contributes a significant share of total purchase value
+* Conducted EDA using **Python (Pandas)** to understand vendor contribution and cost distribution
+* Visualized insights using **Matplotlib and Seaborn**, including:
+
+  * Purchase value distribution across vendors
+  * Freight cost vs order quantity relationships
+  * Top vendors contributing to procurement value
+* Identified vendors with high costs and low contribution
+
+---
+
+## **Power BI Dashboard**
+
+* Developed an interactive **Power BI dashboard** to analyze vendor performance
+![Dashboard](images/vpa_bi.png)
+* Dashboard highlights:
+
+  * Top vendors by purchase value
+  * Freight cost contribution analysis
+  * Vendor-wise KPI comparison
+* Enabled filters for dynamic vendor-level exploration
+
+---
+
+## **Tools & Technologies**
+
+* **SQL** – Data extraction, joins, aggregation, and cleaning
+* **Python** – Pandas, Matplotlib, Seaborn for EDA
+* **Power BI** – Dashboarding and KPI visualization
+
+---
+
+## **Key Insights**
+
+* A small group of vendors contributes a significant portion of total purchase value
 * Certain vendors incur disproportionately high freight costs
 * Vendor performance varies significantly across cost and volume metrics
 
 ---
 
-## 🚀 Conclusion
+## **Conclusion**
 
-This project demonstrates how data analysis can support procurement and supply chain decision-making. By combining SQL, Python, and Power BI, the analysis provides actionable insights into vendor performance and cost optimization opportunities.
+This project demonstrates a complete data analytics workflow to evaluate vendor performance using SQL, Python, and Power BI. The insights help identify cost inefficiencies and support data-driven procurement decisions.
 
 ---
 
-## 📎 Future Enhancements
+## **Future Enhancements**
 
-* Automate data refresh for real-time dashboard updates
-* Add trend analysis over time
-* Extend analysis to predict vendor risk or cost anomalies
+* Add time-based trend analysis
+* Automate data refresh in Power BI
+* Extend analysis to vendor risk or cost anomaly detection
 
