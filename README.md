@@ -62,7 +62,7 @@ Kaggle Dataset:
 ## **Power BI Dashboard**
 
 * Developed an interactive **Power BI dashboard** to analyze vendor performance
-![Dashboard](images/vpa_bi.png)
+![Dashboard](images/img.png)
 * Dashboard highlights:
 
   * Top vendors by purchase value
