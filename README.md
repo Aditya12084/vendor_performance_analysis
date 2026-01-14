@@ -66,7 +66,7 @@ Kaggle Dataset:
 * Dashboard highlights:
 
   * Top vendors by purchase value
-  * Freight cost contribution analysis
+  * Top Brands by sales
   * Vendor-wise KPI comparison
 * Enabled filters for dynamic vendor-level exploration
 
