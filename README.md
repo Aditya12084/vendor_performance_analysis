@@ -67,13 +67,11 @@ Kaggle Dataset:
 
 - Top Vendors & Brands: Visualizes top vendors by sales and top brands by revenue.
 
-- Vendor Performance: Compares key metrics (sales, purchase, profit, profit margin) across vendors.
+- Vendor Performance: Compares key metrics (sales, purchase, profit, profit margin, unsold capital) across vendors.
 
 - Low Performing Analysis: Identifies low-performing vendors and brands.
 
 - Interactive Filters: Enables dynamic exploration at vendor and brand level.
-
-- Key Metrics Display: Shows total sales, purchase, gross profit, profit margin, and unsold capital at a glance.
 
 ---
 
