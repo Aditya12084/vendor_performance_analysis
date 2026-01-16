@@ -1,6 +1,6 @@
 # **Vendor Performance Analysis**
 
-**SQL • Python (Pandas, Matplotlib, Seaborn) • Power BI**
+**SQL • Python (Pandas, Matplotlib, Seaborn) • Power BI • Excel**
 
 ---
 
