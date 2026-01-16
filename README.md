@@ -80,7 +80,7 @@ Kaggle Dataset:
 * **SQL** – Data extraction, joins, aggregation, and cleaning
 * **Python** – Pandas, Matplotlib, Seaborn for EDA
 * **Power BI** – Dashboarding and KPI visualization
-
+* **Excel** – Performed basic Vendor Performance Analysis
 ---
 
 ## **Key Insights**
