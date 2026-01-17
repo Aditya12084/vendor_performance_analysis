@@ -59,13 +59,7 @@ Kaggle Dataset:
 
 ---
 
-## **Power BI Dashboard**
-
-Here’s a clean, professional version you can directly use in your **README / resume project section** — structured and concise 👇
-
----
-
-### Vendor Performance Analysis – Power BI Dashboard
+### Power BI Dashboard
 
 * Developed an interactive **Power BI dashboard** to analyze and evaluate vendor performance across sales, purchases, profitability, and operational efficiency.
 
