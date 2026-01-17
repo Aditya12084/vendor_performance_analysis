@@ -61,17 +61,35 @@ Kaggle Dataset:
 
 ## **Power BI Dashboard**
 
-* Developed an interactive **Power BI dashboard** to analyze vendor performance
-![Dashboard](images/img.png)
-* Dashboard highlights:
+Here’s a clean, professional version you can directly use in your **README / resume project section** — structured and concise 👇
 
-- Top Vendors & Brands: Visualizes top vendors by sales and top brands by revenue.
+---
 
-- Vendor Performance: Compares key metrics (sales, purchase, profit, profit margin, unsold capital) across vendors.
+### Vendor Performance Analysis – Power BI Dashboard
 
-- Low Performing Analysis: Identifies low-performing vendors and brands.
+* Developed an interactive **Power BI dashboard** to analyze and evaluate vendor performance across sales, purchases, profitability, and operational efficiency.
 
-- Interactive Filters: Enables dynamic exploration at vendor and brand level.
+**Dashboard Highlights:**
+
+**KPI Cards (6):**
+
+* Total Sales
+* Total Purchase
+* Gross Profit
+* Profit Margin (%)
+* Unsold Capital
+* Freight Cost
+
+**Visualizations (6):**
+
+* Purchase Contribution (%) by Vendor
+* Top Vendors by Sales
+* Top Brands by Sales
+* Low Inventory Turnover Vendors
+* Freight-to-Purchase Ratio (%) by Vendor
+* Discount (%) by Vendor
+
+![Dashboard](images/img_1.png)
 
 ---
 
